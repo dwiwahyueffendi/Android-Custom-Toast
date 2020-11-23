@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidCustomToast</string>
+    <string name="general_toast">General Toast</string>
 </resources>

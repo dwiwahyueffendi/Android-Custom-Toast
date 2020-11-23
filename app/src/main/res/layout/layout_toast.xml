@@ -3,17 +3,27 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:background="@drawable/toast_general_background"
+    android:gravity="center"
+    android:orientation="horizontal"
     android:paddingStart="100dp"
     android:paddingEnd="100dp"
     android:paddingTop="40dp"
-    android:paddingBottom="40dp"
-    android:background="@drawable/toast_general_background"
-    android:orientation="horizontal">
+    android:paddingBottom="40dp">
 
         <ImageView
             android:id="@+id/imageIcon"
             android:layout_width="30dp"
             android:layout_height="30dp"
+            android:src="@drawable/ic_general_toast"
             android:contentDescription="@string/app_name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/general_toast"/>
 
 </LinearLayout>
