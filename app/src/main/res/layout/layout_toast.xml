@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="100dp"
+    android:paddingEnd="100dp"
+    android:paddingTop="40dp"
+    android:paddingBottom="40dp"
+    android:background="@drawable/toast_general_background"
+    android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:contentDescription="@string/app_name"/>
+
+</LinearLayout>
