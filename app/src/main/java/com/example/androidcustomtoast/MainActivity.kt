@@ -11,11 +11,20 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         buttonGeneralToast.setOnClickListener(){
-
+            showToast()
         }
     }
 
     private fun showToast(){
+        val toastView = layoutInflater.inflate(
+                R.layout.layout_toast,
+                findViewById(R.id.layoutToastContainer)
+        )
 
+        with(Toast(applicationContext)){
+            duration = Toast.LENGTH_SHORT
+            view = toastView
+            show()
+        }
     }
 }
