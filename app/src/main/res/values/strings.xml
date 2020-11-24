@@ -2,4 +2,7 @@
     <string name="app_name">AndroidCustomToast</string>
     <string name="general_toast">General Toast</string>
     <string name="show_general_toast">Show General Toast</string>
+    <string name="success_toast">Success Toast</string>
+    <string name="warning_toast">Warning Toast</string>
+    <string name="error_toast">Error Toast</string>
 </resources>

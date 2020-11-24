@@ -9,9 +9,21 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/buttonGeneralToast"
+        android:id="@+id/buttonSuccessToast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/show_general_toast" />
+        android:text="@string/success_toast" />
+
+    <Button
+        android:id="@+id/buttonWarningToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/warning_toast" />
+
+    <Button
+        android:id="@+id/buttonErrorToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/error_toast" />
 
 </LinearLayout>
